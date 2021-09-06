@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-image: linear-gradient(
+      rgba(219, 228, 255, 0.103),
+      rgb(219, 228, 255)
+    ),
+    url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+}
+
+.container {
+  width: 370px;
+  margin: 0 auto;
+  background-color: #fff;
+  height: 560px;
+  border-radius: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  width: 370px;
+  margin-bottom: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.text,
+.title,
+.btn,
+.cancel {
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.text {
+  width: 270px;
+  margin: 0 auto;
+  line-height: 1.3rem;
+  color: #868e96;
+  margin-bottom: 20px;
+}
+
+.details {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  background-color: #f1f3f5;
+  border-radius: 7px;
+  margin: 0 auto;
+  height: 75px;
+}
+
+.music--icon {
+  width: 40px;
+  height: 40px;
+  margin-top: 35px;
+}
+
+.plans {
+  margin-left: -25px;
+}
+
+.plan {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.plan--price {
+  color: #868e96;
+}
+
+.details a:link {
+  color: #1c7ed6;
+}
+
+.details a:link:hover {
+  text-decoration: none;
+}
+
+.btn {
+  margin-top: 20px;
+  background-color: #364fc7;
+  padding: 10px;
+  color: #fff;
+  width: 300px;
+  margin: 25px auto;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #7950f2;
+}
+
+.cancel {
+  color: #6e87a0;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.cancel:hover {
+  color: #000;
+}
